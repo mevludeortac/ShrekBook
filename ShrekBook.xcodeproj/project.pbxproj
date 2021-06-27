@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC6DA89A2688F85200E0C50B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DA8992688F85100E0C50B /* AppDelegate.swift */; };
+		FC6DA89C2688F85200E0C50B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DA89B2688F85200E0C50B /* SceneDelegate.swift */; };
+		FC6DA89E2688F85200E0C50B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DA89D2688F85200E0C50B /* ViewController.swift */; };
+		FC6DA8A12688F85200E0C50B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6DA89F2688F85200E0C50B /* Main.storyboard */; };
+		FC6DA8A32688F85700E0C50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6DA8A22688F85700E0C50B /* Assets.xcassets */; };
+		FC6DA8A62688F85700E0C50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6DA8A42688F85700E0C50B /* LaunchScreen.storyboard */; };
+		FC6DA8B12688F85800E0C50B /* ShrekBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DA8B02688F85800E0C50B /* ShrekBookTests.swift */; };
+		FC6DA8BC2688F85800E0C50B /* ShrekBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DA8BB2688F85800E0C50B /* ShrekBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC6DA8AD2688F85800E0C50B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6DA88E2688F85100E0C50B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6DA8952688F85100E0C50B;
+			remoteInfo = ShrekBook;
+		};
+		FC6DA8B82688F85800E0C50B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6DA88E2688F85100E0C50B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6DA8952688F85100E0C50B;
+			remoteInfo = ShrekBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC6DA8962688F85100E0C50B /* ShrekBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShrekBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DA8992688F85100E0C50B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC6DA89B2688F85200E0C50B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC6DA89D2688F85200E0C50B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC6DA8A02688F85200E0C50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC6DA8A22688F85700E0C50B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6DA8A52688F85700E0C50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC6DA8A72688F85700E0C50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6DA8AC2688F85800E0C50B /* ShrekBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShrekBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DA8B02688F85800E0C50B /* ShrekBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekBookTests.swift; sourceTree = "<group>"; };
+		FC6DA8B22688F85800E0C50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6DA8B72688F85800E0C50B /* ShrekBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShrekBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DA8BB2688F85800E0C50B /* ShrekBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekBookUITests.swift; sourceTree = "<group>"; };
+		FC6DA8BD2688F85800E0C50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6DA8932688F85100E0C50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DA8A92688F85800E0C50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DA8B42688F85800E0C50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC6DA88D2688F85100E0C50B = {
+			isa = PBXGroup;
+			children = (
+				FC6DA8982688F85100E0C50B /* ShrekBook */,
+				FC6DA8AF2688F85800E0C50B /* ShrekBookTests */,
+				FC6DA8BA2688F85800E0C50B /* ShrekBookUITests */,
+				FC6DA8972688F85100E0C50B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6DA8972688F85100E0C50B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DA8962688F85100E0C50B /* ShrekBook.app */,
+				FC6DA8AC2688F85800E0C50B /* ShrekBookTests.xctest */,
+				FC6DA8B72688F85800E0C50B /* ShrekBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6DA8982688F85100E0C50B /* ShrekBook */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DA8992688F85100E0C50B /* AppDelegate.swift */,
+				FC6DA89B2688F85200E0C50B /* SceneDelegate.swift */,
+				FC6DA89D2688F85200E0C50B /* ViewController.swift */,
+				FC6DA89F2688F85200E0C50B /* Main.storyboard */,
+				FC6DA8A22688F85700E0C50B /* Assets.xcassets */,
+				FC6DA8A42688F85700E0C50B /* LaunchScreen.storyboard */,
+				FC6DA8A72688F85700E0C50B /* Info.plist */,
+			);
+			path = ShrekBook;
+			sourceTree = "<group>";
+		};
+		FC6DA8AF2688F85800E0C50B /* ShrekBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DA8B02688F85800E0C50B /* ShrekBookTests.swift */,
+				FC6DA8B22688F85800E0C50B /* Info.plist */,
+			);
+			path = ShrekBookTests;
+			sourceTree = "<group>";
+		};
+		FC6DA8BA2688F85800E0C50B /* ShrekBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DA8BB2688F85800E0C50B /* ShrekBookUITests.swift */,
+				FC6DA8BD2688F85800E0C50B /* Info.plist */,
+			);
+			path = ShrekBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6DA8952688F85100E0C50B /* ShrekBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DA8C02688F85800E0C50B /* Build configuration list for PBXNativeTarget "ShrekBook" */;
+			buildPhases = (
+				FC6DA8922688F85100E0C50B /* Sources */,
+				FC6DA8932688F85100E0C50B /* Frameworks */,
+				FC6DA8942688F85100E0C50B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShrekBook;
+			productName = ShrekBook;
+			productReference = FC6DA8962688F85100E0C50B /* ShrekBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC6DA8AB2688F85800E0C50B /* ShrekBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DA8C32688F85800E0C50B /* Build configuration list for PBXNativeTarget "ShrekBookTests" */;
+			buildPhases = (
+				FC6DA8A82688F85800E0C50B /* Sources */,
+				FC6DA8A92688F85800E0C50B /* Frameworks */,
+				FC6DA8AA2688F85800E0C50B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6DA8AE2688F85800E0C50B /* PBXTargetDependency */,
+			);
+			name = ShrekBookTests;
+			productName = ShrekBookTests;
+			productReference = FC6DA8AC2688F85800E0C50B /* ShrekBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC6DA8B62688F85800E0C50B /* ShrekBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DA8C62688F85800E0C50B /* Build configuration list for PBXNativeTarget "ShrekBookUITests" */;
+			buildPhases = (
+				FC6DA8B32688F85800E0C50B /* Sources */,
+				FC6DA8B42688F85800E0C50B /* Frameworks */,
+				FC6DA8B52688F85800E0C50B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6DA8B92688F85800E0C50B /* PBXTargetDependency */,
+			);
+			name = ShrekBookUITests;
+			productName = ShrekBookUITests;
+			productReference = FC6DA8B72688F85800E0C50B /* ShrekBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6DA88E2688F85100E0C50B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FC6DA8952688F85100E0C50B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FC6DA8AB2688F85800E0C50B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FC6DA8952688F85100E0C50B;
+					};
+					FC6DA8B62688F85800E0C50B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FC6DA8952688F85100E0C50B;
+					};
+				};
+			};
+			buildConfigurationList = FC6DA8912688F85100E0C50B /* Build configuration list for PBXProject "ShrekBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6DA88D2688F85100E0C50B;
+			productRefGroup = FC6DA8972688F85100E0C50B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6DA8952688F85100E0C50B /* ShrekBook */,
+				FC6DA8AB2688F85800E0C50B /* ShrekBookTests */,
+				FC6DA8B62688F85800E0C50B /* ShrekBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6DA8942688F85100E0C50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DA8A62688F85700E0C50B /* LaunchScreen.storyboard in Resources */,
+				FC6DA8A32688F85700E0C50B /* Assets.xcassets in Resources */,
+				FC6DA8A12688F85200E0C50B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DA8AA2688F85800E0C50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DA8B52688F85800E0C50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6DA8922688F85100E0C50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DA89E2688F85200E0C50B /* ViewController.swift in Sources */,
+				FC6DA89A2688F85200E0C50B /* AppDelegate.swift in Sources */,
+				FC6DA89C2688F85200E0C50B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DA8A82688F85800E0C50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DA8B12688F85800E0C50B /* ShrekBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DA8B32688F85800E0C50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DA8BC2688F85800E0C50B /* ShrekBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC6DA8AE2688F85800E0C50B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6DA8952688F85100E0C50B /* ShrekBook */;
+			targetProxy = FC6DA8AD2688F85800E0C50B /* PBXContainerItemProxy */;
+		};
+		FC6DA8B92688F85800E0C50B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6DA8952688F85100E0C50B /* ShrekBook */;
+			targetProxy = FC6DA8B82688F85800E0C50B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC6DA89F2688F85200E0C50B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6DA8A02688F85200E0C50B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC6DA8A42688F85700E0C50B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6DA8A52688F85700E0C50B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6DA8BE2688F85800E0C50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC6DA8BF2688F85800E0C50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6DA8C12688F85800E0C50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShrekBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = herbin.ShrekBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6DA8C22688F85800E0C50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShrekBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = herbin.ShrekBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC6DA8C42688F85800E0C50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShrekBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = herbin.ShrekBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShrekBook.app/ShrekBook";
+			};
+			name = Debug;
+		};
+		FC6DA8C52688F85800E0C50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShrekBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = herbin.ShrekBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShrekBook.app/ShrekBook";
+			};
+			name = Release;
+		};
+		FC6DA8C72688F85800E0C50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShrekBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = herbin.ShrekBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShrekBook;
+			};
+			name = Debug;
+		};
+		FC6DA8C82688F85800E0C50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShrekBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = herbin.ShrekBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShrekBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6DA8912688F85100E0C50B /* Build configuration list for PBXProject "ShrekBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DA8BE2688F85800E0C50B /* Debug */,
+				FC6DA8BF2688F85800E0C50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DA8C02688F85800E0C50B /* Build configuration list for PBXNativeTarget "ShrekBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DA8C12688F85800E0C50B /* Debug */,
+				FC6DA8C22688F85800E0C50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DA8C32688F85800E0C50B /* Build configuration list for PBXNativeTarget "ShrekBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DA8C42688F85800E0C50B /* Debug */,
+				FC6DA8C52688F85800E0C50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DA8C62688F85800E0C50B /* Build configuration list for PBXNativeTarget "ShrekBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DA8C72688F85800E0C50B /* Debug */,
+				FC6DA8C82688F85800E0C50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6DA88E2688F85100E0C50B /* Project object */;
+}
