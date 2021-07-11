@@ -15,6 +15,8 @@
 		FC6DA8A62688F85700E0C50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6DA8A42688F85700E0C50B /* LaunchScreen.storyboard */; };
 		FC6DA8B12688F85800E0C50B /* ShrekBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DA8B02688F85800E0C50B /* ShrekBookTests.swift */; };
 		FC6DA8BC2688F85800E0C50B /* ShrekBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DA8BB2688F85800E0C50B /* ShrekBookUITests.swift */; };
+		FC6DA8CD2688F99900E0C50B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DA8CC2688F99900E0C50B /* DetailsViewController.swift */; };
+		FC6DA8D52688FDCE00E0C50B /* ShrekFam.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DA8D42688FDCE00E0C50B /* ShrekFam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FC6DA8B72688F85800E0C50B /* ShrekBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShrekBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6DA8BB2688F85800E0C50B /* ShrekBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekBookUITests.swift; sourceTree = "<group>"; };
 		FC6DA8BD2688F85800E0C50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6DA8CC2688F99900E0C50B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FC6DA8D42688FDCE00E0C50B /* ShrekFam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekFam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				FC6DA8992688F85100E0C50B /* AppDelegate.swift */,
 				FC6DA89B2688F85200E0C50B /* SceneDelegate.swift */,
 				FC6DA89D2688F85200E0C50B /* ViewController.swift */,
+				FC6DA8CC2688F99900E0C50B /* DetailsViewController.swift */,
 				FC6DA89F2688F85200E0C50B /* Main.storyboard */,
 				FC6DA8A22688F85700E0C50B /* Assets.xcassets */,
 				FC6DA8A42688F85700E0C50B /* LaunchScreen.storyboard */,
 				FC6DA8A72688F85700E0C50B /* Info.plist */,
+				FC6DA8D42688FDCE00E0C50B /* ShrekFam.swift */,
 			);
 			path = ShrekBook;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				FC6DA89E2688F85200E0C50B /* ViewController.swift in Sources */,
 				FC6DA89A2688F85200E0C50B /* AppDelegate.swift in Sources */,
+				FC6DA8D52688FDCE00E0C50B /* ShrekFam.swift in Sources */,
 				FC6DA89C2688F85200E0C50B /* SceneDelegate.swift in Sources */,
+				FC6DA8CD2688F99900E0C50B /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
